@@ -10,4 +10,4 @@
 |0907|백준|2805|[나무자르기](https://www.acmicpc.net/problem/2805)|실버2|Binary Search
 |0908|백준|18352|[특정거리의도시찾기](https://www.acmicpc.net/problem/18352)|실버2|Shortest Path
 |0909|백준|11265|[끝나지않는파티](https://www.acmicpc.net/problem/11265)|골드5|Shortest Path
-|0910|백준|1647|[도시분할계획](https://www.acmicpc.net/problem/1647)|골드4|Minimum Spanning Tree
+|0910|백준|1647|[도시분할계획](https://www.acmicpc.net/problem/1647)|골드4|Minimum Spanning Tree(MST)
