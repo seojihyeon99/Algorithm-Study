@@ -45,7 +45,6 @@ public class BJ_14567_선수과목_서지현 {
 			subject[right]++; // indegree 증가
 		}
 		
-		// 리스트 순회하며, indegree 0인 애들 찾음
 		int idx = 1; // 현재 학기
 		int count = 0; // 방문한 정점수
 		while(true) {
