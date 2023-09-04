@@ -14,6 +14,7 @@ import java.util.StringTokenizer;
  * 
  * @author 박태호
  * <pre>
+ * 131236kb 608ms
  * 위상 정렬 문제
  * 최소 몇학기에 이수할 수 있는지 구하는 문제
  * ans[] : 답을 기록해둔다.
