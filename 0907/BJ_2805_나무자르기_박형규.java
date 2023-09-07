@@ -1,7 +1,6 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Arrays;
 import java.util.StringTokenizer;
 
 /**
@@ -11,41 +10,35 @@ import java.util.StringTokenizer;
  * 
  * 나무의 높이의 합은 M보다 크거나 같으므로 상근이는 항상 필요한 길이만큼의 나무를 가져갈 수 있음.
  * 
- * => N개의 나무 중에서 최소높이 low와 최대높이 high의 중간값인 mid로 높이를 설정하고,
+ * => 최소높이 low와 최대높이 high의 중간값인 mid로 높이를 설정하고,
  * 가져가는 나무의 미터 result가 M보다 작으면 high를 mid-1로 바꾸고 반복한다.
  * 가져가는 나무의 미터 result가 M보다 크거나 같으면 나무 높이의 최댓값을 큰값으로 갱신하고 low를 mid+1로 바꾸고 반복한다.
  * 
  * 이분 탐색을 이용하여 풀이 가능한 문제
  * </pre>
  * @author 박형규
- * 메모리 120,636 KB
- * 시간 984 ms
+ * 메모리 119,224 KB
+ * 시간 520 ms
  */
 public class BJ_2805_나무자르기_박형규 {
-
-	static int N, tree[];
-	static long M;
 	
 	public static void main(String[] args) throws IOException {
 		BufferedReader br = new BufferedReader(new InputStreamReader(System.in)); // 입력 스트림
 		StringTokenizer st = new StringTokenizer(br.readLine()); // 공백 단위로 문자열 분리
 		
-		N = Integer.parseInt(st.nextToken()); // 나무의 수 (1 ~ 1,000,000)
-		M = Long.parseLong(st.nextToken()); // 상근이가 집으로 가져가려고 하는 나무의 길이(1 ~ 2,000,000,000)
+		int N = Integer.parseInt(st.nextToken()); // 나무의 수 (1 ~ 1,000,000)
+		int M = Integer.parseInt(st.nextToken()); // 상근이가 집으로 가져가려고 하는 나무의 길이(1 ~ 2,000,000,000)
 		
-		tree = new int[N]; // N개의 나무의 높이를 저장할 1차원 배열 선언
+		int[] tree = new int[N]; // N개의 나무의 높이를 저장할 1차원 배열 선언
 		st = new StringTokenizer(br.readLine()); // 나무의 높이가 공백으로 분리되어 주어짐
+		
+		int low = 1, high = 1; // 이진탐색 시작, 끝값 설정
+		
 		for (int i = 0; i < N; i++) {
 			tree[i] = Integer.parseInt(st.nextToken());
+			high = Math.max(high, tree[i]);
 		}
 		
-		Arrays.sort(tree); // 나무의 높이 오름차순 정렬
-		
-		System.out.println(binarySearch()); // 결과 출력
-	}
-
-	private static int binarySearch() {
-		int low = 1, high = tree[N - 1]; // 이진탐색 시작, 끝값 설정
 		while (low <= high) {
 			int mid = low + (high - low) / 2;
 			
@@ -62,7 +55,9 @@ public class BJ_2805_나무자르기_박형규 {
 				low = mid + 1; // 시작값 재설정
 			}
 		}
-		return high;
+		
+		System.out.println(high); // 결과 출력
 	}
+
 
 }
