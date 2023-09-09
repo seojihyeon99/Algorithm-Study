@@ -1,28 +1,24 @@
 package BJ;
 
 /**
- * 289220KB  1332ms
  * @author 박태호
- * bfs 풀이
+ * 289916KB 1344ms BFS
  */
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Comparator;
 import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-public class BJ_18352_특정거리의도시찾기_박태호 {
-	static int N, M, K, X, dis[];
+public class Main {
+	static int N, M, K, X, v[];
 	static List<Integer>[] adjList;
-	static boolean v[];
 
 	static StringBuilder sb = new StringBuilder();
-
 	public static void main(String[] args) throws IOException {
 		BufferedReader bf = new BufferedReader(new InputStreamReader(System.in));
 		StringTokenizer st = new StringTokenizer(bf.readLine());
@@ -30,8 +26,7 @@ public class BJ_18352_특정거리의도시찾기_박태호 {
 		M = Integer.parseInt(st.nextToken());
 		K = Integer.parseInt(st.nextToken());
 		X = Integer.parseInt(st.nextToken());
-		dis = new int[N + 1];
-		v = new boolean[N + 1];
+		v = new int[N + 1];
 		adjList = new ArrayList[N + 1];
 		for (int i = 0; i < adjList.length; i++) {
 			adjList[i] = new ArrayList<>();
@@ -43,20 +38,20 @@ public class BJ_18352_특정거리의도시찾기_박태호 {
 			to = Integer.parseInt(st.nextToken());
 			adjList[from].add(to);
 		}
-//		System.out.println("인접리스트 : "+Arrays.toString(adjList) );
-		v[X] = true;
+		K++;
+		v[X]=1;
 		bfs();
 		for (int i = 1; i < v.length; i++) {
-			if (dis[i] == K) {
-				sb.append(i + "\n");
+			if(v[i]==K) {
+				sb.append(i+"\n");
 			}
 		}
-		if (sb.length() == 0) {
+		if(sb.length()==0) {
 			System.out.println(-1);
-		} else {
+		}else{
 			System.out.println(sb);
-
-		}
+			
+		};
 	}
 
 	private static void bfs() {
@@ -66,10 +61,11 @@ public class BJ_18352_특정거리의도시찾기_박태호 {
 		while (!que.isEmpty()) {
 			cur = que.poll();
 			for (Integer c : adjList[cur]) {
-				if (!v[c]) {
-					v[c] = true;
-					dis[c] = dis[cur] + 1;
-					que.offer(c);
+				if(v[c]==0) {
+					v[c] = v[cur] + 1;
+					 
+						que.offer(c);
+					 
 				}
 			}
 
