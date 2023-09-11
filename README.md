@@ -12,3 +12,4 @@
 |0909|백준|11265|[끝나지않는파티](https://www.acmicpc.net/problem/11265)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Shortest Path
 |0910|백준|1647|[도시분할계획](https://www.acmicpc.net/problem/1647)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/3a489e9f-66f3-464d-b892-7050ed86d2ba/[gold4]" />|Minimum Spanning Tree(MST)
 |0911|백준|11053|[가장긴증가하는부분수열](https://www.acmicpc.net/problem/11053)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b53509a5-f345-45bb-a34c-485511656f9e/[silver2]" />|Dynamic Programming(DP)
+|0912|백준|1780|[종이의개수](https://www.acmicpc.net/problem/1780)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b53509a5-f345-45bb-a34c-485511656f9e/[silver2]" />|Dynamic Programming(DP)
