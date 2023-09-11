@@ -1,7 +1,19 @@
 # Algorithm-Study
   
 문제 참고 : https://github.com/tony9402/baekjoon/tree/main
-  
+
+### 이번주 문제
+|날짜|사이트|문제번호|문제명|난이도|유형|
+|:------:|:---------:|:--------:|:----------------------:|:-------:|:-----------------:|
+|0911|백준|11053|[가장긴증가하는부분수열](https://www.acmicpc.net/problem/11053)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b53509a5-f345-45bb-a34c-485511656f9e/[silver2]" />|Dynamic Programming(DP)
+|0912|백준|1780|[종이의개수](https://www.acmicpc.net/problem/1780)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b53509a5-f345-45bb-a34c-485511656f9e/[silver2]" />|Divide and conquer
+|0913|백준|1941|[소문난칠공주](https://www.acmicpc.net/problem/1941)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/cc98a5fe-e972-48da-b8bb-8805d616966a/[gold3]" />|Backtracking
+|0914|백준|11000|[강의실배정](https://www.acmicpc.net/problem/11000)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Greedy
+|0915|백준|9465|[스티커](https://www.acmicpc.net/problem/9465)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b5c4727c-71be-4397-a813-ea52e7df84fc/[silver1]" />|Dynamic Programming(DP)
+|0916|백준|21924|[도시건설](https://www.acmicpc.net/problem/21924)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/3a489e9f-66f3-464d-b892-7050ed86d2ba/[gold4]" />|Minimum Spanning Tree(MST)
+|0917|백준|14938|[서강그라운드](https://www.acmicpc.net/problem/14938)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/3a489e9f-66f3-464d-b892-7050ed86d2ba/[gold4]" />|Shortest Path
+
+### 전체 문제
 |날짜|사이트|문제번호|문제명|난이도|유형|
 |:------:|:---------:|:--------:|:----------------------:|:-------:|:-----------------:|
 |0904|백준|14567|[선수과목](https://www.acmicpc.net/problem/14567)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Topological Sorting
