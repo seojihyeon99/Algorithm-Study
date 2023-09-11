@@ -11,5 +11,4 @@
 |0908|백준|18352|[특정거리의도시찾기](https://www.acmicpc.net/problem/18352)|실버2|Shortest Path
 |0909|백준|11265|[끝나지않는파티](https://www.acmicpc.net/problem/11265)|골드5|Shortest Path
 |0910|백준|1647|[도시분할계획](https://www.acmicpc.net/problem/1647)|골드4|Minimum Spanning Tree(MST)
-|0911|백준|11053|[가장긴증가하는부분수열](https://www.acmicpc.net/problem/11053)|![silver2](https://github.com/wus22/Algorithm-Study/assets/121781743/e4fcab5a-81ae-4f9d-a304-64da23884842){: width="10" height="10"}
-|Dynamic Programming(DP)
+|0911|백준|11053|[가장긴증가하는부분수열](https://www.acmicpc.net/problem/11053)|<img height="32" width="32" src="https://github.com/wus22/Algorithm-Study/assets/121781743/e4fcab5a-81ae-4f9d-a304-64da23884842/[silver2]" />|Dynamic Programming(DP)
