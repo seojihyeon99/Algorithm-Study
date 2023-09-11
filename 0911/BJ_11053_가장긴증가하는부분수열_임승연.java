@@ -4,7 +4,7 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 /**
- * dp[i]: i번째 수까지의 최장중가부분수열크기 저장
+ * dp[i]: i번째 수까지의 최장증가부분수열크기 저장
  * 메모리 12360 kb, 시간 96 ms
  */
 
