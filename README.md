@@ -14,5 +14,5 @@
 |0911|백준|11053|[가장긴증가하는부분수열](https://www.acmicpc.net/problem/11053)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b53509a5-f345-45bb-a34c-485511656f9e/[silver2]" />|Dynamic Programming(DP)
 |0912|백준|1780|[종이의개수](https://www.acmicpc.net/problem/1780)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b53509a5-f345-45bb-a34c-485511656f9e/[silver2]" />|Divide and conquer
 |0913|백준|1941|[소문난칠공주](https://www.acmicpc.net/problem/1941)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/cc98a5fe-e972-48da-b8bb-8805d616966a/[gold3]" />|Backtracking
-|0914|백준|11000|[강의실배정](https://www.acmicpc.net/problem/11000)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Backtracking
+|0914|백준|11000|[강의실배정](https://www.acmicpc.net/problem/11000)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Greedy
 
