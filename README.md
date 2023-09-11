@@ -10,5 +10,5 @@
 |0907|백준|2805|[나무자르기](https://www.acmicpc.net/problem/2805)|실버2|Binary Search
 |0908|백준|18352|[특정거리의도시찾기](https://www.acmicpc.net/problem/18352)|실버2|Shortest Path
 |0909|백준|11265|[끝나지않는파티](https://www.acmicpc.net/problem/11265)|골드5|Shortest Path
-|0910|백준|1647|[도시분할계획](https://www.acmicpc.net/problem/1647)|골드4|Minimum Spanning Tree(MST)
+|0910|백준|1647|[도시분할계획](https://www.acmicpc.net/problem/1647)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/3a489e9f-66f3-464d-b892-7050ed86d2b/[gold4]" />|Minimum Spanning Tree(MST)
 |0911|백준|11053|[가장긴증가하는부분수열](https://www.acmicpc.net/problem/11053)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/e4fcab5a-81ae-4f9d-a304-64da23884842/[silver2]" />|Dynamic Programming(DP)
