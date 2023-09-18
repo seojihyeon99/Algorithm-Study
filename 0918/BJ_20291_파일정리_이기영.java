@@ -13,7 +13,8 @@ public class Main {
      *
      * 문자열을 이용해서 풀이하는 문제입니다.
      * TreeMap을 사용해서 정렬하였습니다.
-     *
+     * 메모리 : 318660KB
+     * 시간 : 2328 ms
      */
 
     public static void main(String[] args) throws IOException {
