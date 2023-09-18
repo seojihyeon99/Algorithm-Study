@@ -5,13 +5,13 @@
 ### 이번주 문제
 |날짜|사이트|문제번호|문제명|난이도|유형|
 |:------:|:---------:|:--------:|:----------------------:|:-------:|:-----------------:|
-|0918|백준|20291|[파일정리](https://www.acmicpc.net/problem/20291)|>|String
+|0918|백준|20291|[파일정리](https://www.acmicpc.net/problem/20291)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/19604808/8419b498-5a24-4973-9679-a28e18dbee7b/[silver3]" />|String
 |0919|백준|1062|[가르침](https://www.acmicpc.net/problem/1062)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/3a489e9f-66f3-464d-b892-7050ed86d2ba/[gold4]" />|Backtracking
-|0920|백준|ㅂ|[소문난칠공주](https://www.acmicpc.net/problem/1941)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/cc98a5fe-e972-48da-b8bb-8805d616966a/[gold3]" />|Backtracking
-|0921|백준|ㅂ|[강의실배정](https://www.acmicpc.net/problem/11000)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Greedy
-|0922|백준|ㅂ|[스티커](https://www.acmicpc.net/problem/9465)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b5c4727c-71be-4397-a813-ea52e7df84fc/[silver1]" />|Dynamic Programming(DP)
-|0923|백준|ㅂ|[도시건설](https://www.acmicpc.net/problem/21924)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/3a489e9f-66f3-464d-b892-7050ed86d2ba/[gold4]" />|Minimum Spanning Tree(MST)
-|0924|백준|ㅂ|[서강그라운드](https://www.acmicpc.net/problem/14938)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/3a489e9f-66f3-464d-b892-7050ed86d2ba/[gold4]" />|Shortest Path
+|0920|백준|16953|[A->B](https://www.acmicpc.net/problem/16953)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b53509a5-f345-45bb-a34c-485511656f9e/[silver2]" />|Two Pointer
+|0921|백준|2470|[두 용액](https://www.acmicpc.net/problem/2470)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Greedy
+|0922|백준|15787|[기차가 어둠을 헤치고 은하수를](https://www.acmicpc.net/problem/15787)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/b53509a5-f345-45bb-a34c-485511656f9e/[silver2]" />|Implementation
+|0923|백준|20164|[홀수 홀릭 호석](https://www.acmicpc.net/problem/20164)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Implementation
+|0924|백준|16719|[ZOAC](https://www.acmicpc.net/problem/16719)|<img height="25" width="25" src="https://github.com/wus22/Algorithm-Study/assets/121781743/fabe32e2-55fa-4a33-b229-d28f6aca6ebd/[gold5]" />|Implementation
 
 ### 전체 문제
 |날짜|사이트|문제번호|문제명|난이도|유형|
